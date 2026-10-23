@@ -138,7 +138,7 @@ function resetEntireLab(){
 }
 document.querySelectorAll('[data-reset-lab]').forEach(button=>button.onclick=resetEntireLab);
 
-const SUBMISSION_READY=false;
+const SUBMISSION_READY=true;
 let submissionPending=false,submissionTimer=null,submissionFrame=null;
 if(!state.receipt)state.submitted=false;
 function syncSubmission(){
